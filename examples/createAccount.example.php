@@ -4,7 +4,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
 use xtype\Eos\Client;
 use xtype\Eos\Ecc;
 
-$client = new Client('http://api-kylin.eosasia.one');
+$client = new Client('https://wax.greymass.com');
 
 // 新建账号
 $newAccount = 'ashnbjuihgt1';

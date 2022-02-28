@@ -1,10 +1,10 @@
 {
-    "name": "myxtype/eos-client",
-    "description": "php eos client offline sign eosphp-ecc",
+    "name": "masscult/eos-client",
+    "description": "EOS Client for PHP",
     "authors": [
         {
-            "name": "赵波",
-            "email": "792598794@qq.com"
+            "name": "Masscult",
+            "email": "waxify@masscult.co"
         }
     ],
     "require": {

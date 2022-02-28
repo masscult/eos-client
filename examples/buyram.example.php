@@ -3,7 +3,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
 use xtype\Eos\Client;
 
-$client = new Client('http://api-kylin.eosasia.one');
+$client = new Client('https://wax.greymass.com');
 // 购买内存 Buy Ram
 $tx = $client->addPrivateKeys(['5JC6gzzaKU4L6dP7AkmRPXJMcYqJxJ8iNB9tNwd2g4VbpRf5CPC'])->transaction([
     'actions' => [

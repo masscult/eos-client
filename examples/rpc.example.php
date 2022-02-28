@@ -3,11 +3,11 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
 use xtype\Eos\Client;
 
-$client = new Client('http://api-kylin.eosasia.one');
+$client = new Client('https://wax.greymass.com');
 //
 $chain = $client->chain();
 // You can do this
-// will visit http://api-kylin.eosasia.one/v1/chain/get_info
+// will visit https://wax.greymass.com/v1/chain/get_info
 var_dump($chain->getInfo());
 // or
 var_dump($chain->get_info());

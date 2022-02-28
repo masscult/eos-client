@@ -3,7 +3,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
 use xtype\Eos\Client;
 
-$client = new Client('http://api-kylin.eosasia.one');
+$client = new Client('https://wax.greymass.com');
 //
 // 1. set your private key
 $client->addPrivateKeys([
